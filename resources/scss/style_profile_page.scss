@@ -1,0 +1,65 @@
+@import "components/font.scss";
+body {
+    background: #f7f7ff;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    padding: 1.2rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+    &.header h2 {
+        margin: auto;
+    }
+    .post_title {
+        // margin: 5px 0;
+        margin-bottom: 0.5rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        white-space: normal;
+    }
+    .post_status {
+        display: flex;
+        height: 23px;
+        @include font-style(400, 14px, 16px);
+        i:not(:first-child) {
+            margin-left: 25px;
+        }
+        label {
+            margin-left: 3px;
+        }
+    }
+    .post_content {
+        margin-top: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        white-space: normal;
+    }
+    .btn-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .dropdown-post-item {
+        position: absolute;
+        right: 4px;
+        top: 10px;
+    }
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+}

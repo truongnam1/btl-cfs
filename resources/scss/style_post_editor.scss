@@ -1,0 +1,41 @@
+@import "components/font.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    @include font-family;
+}
+
+.modal_container {
+    width: 700px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.input_title {
+    margin-bottom: 10px;
+
+    label {
+        display: block;
+        font-size: 25px;
+    }
+
+    input {
+        width: 100%;
+        padding: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+}
+
+.publish_btn {
+    width: 100%;
+    padding: 10px;
+    background: teal;
+    color: #fff;
+    margin-top: 10px;
+    border: 0;
+}

@@ -1,0 +1,66 @@
+body {
+  background: #f7f7ff;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  padding: 1.2rem;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+}
+.card.header h2 {
+  margin: auto;
+}
+.card .post_title {
+  margin-bottom: 0.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+}
+.card .post_status {
+  display: flex;
+  height: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.card .post_status i:not(:first-child) {
+  margin-left: 25px;
+}
+.card .post_status label {
+  margin-left: 3px;
+}
+.card .post_content {
+  margin-top: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+}
+.card .btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.card .dropdown-post-item {
+  position: absolute;
+  right: 4px;
+  top: 10px;
+}
+
+.me-2 {
+  margin-right: 0.5rem !important;
+}

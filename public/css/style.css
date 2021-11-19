@@ -1,0 +1,13 @@
+.col-6 {
+  width: 50%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 100px;
+}
+
+.col-12 {
+  width: 101%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 100px;
+}

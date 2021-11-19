@@ -1,0 +1,12 @@
+@mixin font-family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin font-style($weight, $size, $height) {
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
+$background-color: #eceff1;

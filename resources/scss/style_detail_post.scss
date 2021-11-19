@@ -1,0 +1,44 @@
+.post_detail h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.post_detail-time {
+    font-size: 15 px;
+}
+
+.post_detail-status {
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.status {
+    margin-right: 50px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+.post_detail-tag {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 10px 20px;
+}
+
+.tag {
+    border: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 5px;
+}
